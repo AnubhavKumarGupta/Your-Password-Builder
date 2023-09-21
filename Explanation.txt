@@ -1,0 +1,17 @@
+The code begins by importing the tkinter library, which is a standard Python library for creating graphical user interfaces (GUIs).
+
+It also imports the choice function from the random library, which will be used to select random characters when generating passwords.
+
+Three character sets are defined alphabet containing letters (both uppercase and lowercase), digit containing numbers, and special containing special characters. These character sets are used to generate random passwords.
+
+The generate_password function is defined to create random passwords. It generates a 12-character password by selecting characters randomly from the combined alphabet, digit, and special character sets and then joins them together into a string. The generated password is displayed on the GUI.
+
+The main application window (app) is created using tk.Tk(), and its title is set to Random Password Generator.
+
+Two label widgets are created greeting_label and password_label. greeting_label displays a welcome message, and password_label is initially empty but will display the generated password.
+
+A button widget named generate_button is created with the label Generate Password, and its command parameter is set to the generate_password function. This means that when the button is clicked, it will trigger the generate_password function.
+
+The pack method is used to arrange the widgets in the application window with specified padding.
+
+Finally, the GUI event loop (app.mainloop()) is started. This loop continuously listens for user interactions, allowing the user to click the Generate Password button to generate random passwords, which are displayed in the password_label.
