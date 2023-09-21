@@ -12,7 +12,7 @@ special = "!@#$%^&*()-+=;:'\/`~,<>?"  # Special characters
 # Function to generate a random password.
 def generate_password():
     # Generate an 10-character password by randomly selecting characters from the defined character sets.
-    password = ''.join([choice(alphabet + digit + special) for _ in range(12)])  # Generating a 12-character password
+    password = ''.join([choice(alphabet + digit + special) for _ in range(10)])  # Generating a 10-character password
     # Update the text of the password_label with the generated password.
     password_label.config(text=password)
 
