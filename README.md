@@ -1,6 +1,6 @@
 ## Your-Password-Builder
 
-# By Anubhav Kumar Gupta
+
 
 # Overview
 • The Random Password Generator is a simple graphical application built using Python and the tkinter library. 
@@ -23,8 +23,6 @@
 • Feel free to modify this README to suit your project's specific details and requirements.
 
 
-
-
-
+# By Anubhav Kumar Gupta
 
 
